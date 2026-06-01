@@ -11,10 +11,21 @@ const configured = Boolean(
     process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY,
 );
 
+// Only allow same-origin relative paths after auth — prevents open-redirect
+// phishing via /login?next=https://evil.com.
+function safeNext(raw: string | null): string {
+  if (!raw) return "/dashboard";
+  // Must start with a single "/", not "//" (protocol-relative) or any scheme.
+  if (raw.startsWith("/") && !raw.startsWith("//") && !raw.startsWith("/\\")) {
+    return raw;
+  }
+  return "/dashboard";
+}
+
 export default function AuthForm({ mode }: { mode: "login" | "signup" }) {
   const router = useRouter();
   const params = useSearchParams();
-  const next = params.get("next") || "/dashboard";
+  const next = safeNext(params.get("next"));
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
