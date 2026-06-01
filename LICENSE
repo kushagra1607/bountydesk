@@ -1,0 +1,29 @@
+                    GNU AFFERO GENERAL PUBLIC LICENSE
+                       Version 3, 19 November 2007
+
+ Copyright (C) 2026 Kushagra Kartikey Suman
+
+ Everyone is permitted to copy and distribute verbatim copies of this
+ license document, but changing it is not allowed.
+
+This program is free software: you can redistribute it and/or modify it
+under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or (at your
+option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public
+License for more details.
+
+A key clause of AGPL-3.0: if you run a modified version of this software
+on a server and let other users interact with it (e.g. as a hosted SaaS),
+you MUST make the modified source code available to those users under
+this same license.
+
+In plain English: you can self-host BountyDesk for personal use, learn
+from the code, fork it for non-commercial projects, and contribute back.
+You CANNOT take this code, modify it, and run it as a competing paid
+service without open-sourcing your modifications.
+
+See the full license text at: https://www.gnu.org/licenses/agpl-3.0.txt
