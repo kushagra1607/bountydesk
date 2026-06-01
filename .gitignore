@@ -41,3 +41,14 @@ yarn-error.log*
 next-env.d.ts
 
 .vercel
+
+# Internal planning / launch / strategy docs (kept local, never published)
+LAUNCH_POSTS.md
+LAUNCH_PLAN.md
+LAUNCH_KIT.md
+MORNING_CHECKLIST.md
+
+# Claude Code internal agent files (kept local, never published)
+AGENTS.md
+CLAUDE.md
+.claude/
