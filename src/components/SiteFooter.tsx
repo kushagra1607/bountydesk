@@ -10,6 +10,9 @@ export default function SiteFooter() {
           <Link href="/pricing" className="hover:text-accent">
             Pricing
           </Link>
+          <Link href="/security" className="hover:text-accent">
+            Security
+          </Link>
           <Link href="/terms" className="hover:text-accent">
             Terms of Service
           </Link>
@@ -19,6 +22,40 @@ export default function SiteFooter() {
           <Link href="/refund" className="hover:text-accent">
             Refund Policy
           </Link>
+        </nav>
+        <nav className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-xs">
+          <a
+            href="https://github.com/kushagra1607/bountydesk"
+            target="_blank"
+            rel="noreferrer"
+            className="hover:text-accent"
+          >
+            GitHub
+          </a>
+          <a
+            href="https://x.com/bountydesk"
+            target="_blank"
+            rel="noreferrer"
+            className="hover:text-accent"
+          >
+            X / Twitter
+          </a>
+          <a
+            href="https://www.youtube.com/@bountydesk"
+            target="_blank"
+            rel="noreferrer"
+            className="hover:text-accent"
+          >
+            YouTube
+          </a>
+          <a
+            href="https://dev.to/bountydesk"
+            target="_blank"
+            rel="noreferrer"
+            className="hover:text-accent"
+          >
+            dev.to
+          </a>
         </nav>
         <p>
           © {new Date().getFullYear()} BountyDesk — track more, write less, get

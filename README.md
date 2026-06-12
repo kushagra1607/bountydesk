@@ -5,6 +5,7 @@
 Built for hunters who are tired of juggling spreadsheets, Notion, and 5 hunting-platform dashboards.
 
 🌐 **Live:** [bountydesk.vercel.app](https://bountydesk.vercel.app)
+🎥 **90-second demo:** [youtu.be/p2BVkvgNtVU](https://youtu.be/p2BVkvgNtVU)
 🛡️ **Security disclosure:** [bountydesk.vercel.app/security](https://bountydesk.vercel.app/security)
 📜 **License:** AGPL-3.0 (see [LICENSE](./LICENSE))
 
