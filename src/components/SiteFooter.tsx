@@ -5,7 +5,22 @@ import Link from "next/link";
 export default function SiteFooter() {
   return (
     <footer className="border-t border-border py-8">
-      <div className="mx-auto flex max-w-6xl flex-col items-center gap-3 px-6 text-center text-sm text-muted">
+      <div className="mx-auto flex max-w-6xl flex-col items-center gap-4 px-6 text-center text-sm text-muted">
+        <a
+          href="https://www.producthunt.com/products/bountydesk?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-bountydesk"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block transition hover:opacity-90"
+          aria-label="BountyDesk on Product Hunt"
+        >
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            alt="BountyDesk - Track every bug bounty submission in one place | Product Hunt"
+            src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1169924&theme=dark&t=1781254699316"
+            width={200}
+            height={43}
+          />
+        </a>
         <nav className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2">
           <Link href="/pricing" className="hover:text-accent">
             Pricing
