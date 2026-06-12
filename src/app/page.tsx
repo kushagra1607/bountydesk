@@ -24,6 +24,18 @@ export default function LandingPage() {
 
       {/* Hero */}
       <section className="mx-auto max-w-6xl px-6 py-20 text-center">
+        <a
+          href="https://www.producthunt.com/products/bountydesk"
+          target="_blank"
+          rel="noreferrer"
+          className="mb-4 inline-flex items-center gap-2 rounded-full border border-accent/40 bg-accent/10 px-3 py-1 text-xs font-medium text-accent transition hover:bg-accent/15"
+        >
+          <span className="relative flex h-2 w-2">
+            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent opacity-60"></span>
+            <span className="relative inline-flex h-2 w-2 rounded-full bg-accent"></span>
+          </span>
+          Launching on Product Hunt — Vercel Day, June 16
+        </a>
         <p className="mb-4 inline-block rounded-full border border-border bg-surface px-3 py-1 text-xs text-muted">
           Built by hunters, for hunters
         </p>
